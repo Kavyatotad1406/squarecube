@@ -1,7 +1,6 @@
 def square_cube():
-    num=int(input("Enter a number: "))
-    for i in range(1,11):
-        print("Squar:",num*num)
-        print("Cube:",num*num*num)
-         
+    print("Number  Square  Cube")
+    for i in range(1, 11):
+        print(i, "     ", i*i, "   ", i*i*i)
+
 square_cube()
